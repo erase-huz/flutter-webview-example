@@ -33,6 +33,8 @@ dependencies:
   cupertino_icons: ^0.1.3
 
 dev_dependencies:
+  test_api: ^0.2.19
+  nullsafety.7:
   flutter_test:
     sdk: flutter
 
