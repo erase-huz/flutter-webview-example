@@ -22,6 +22,7 @@ jobs:
         with:
           flutter-version: '2.2.0'
       - run: flutter pub get
+      - run: flutter doctor --android-licenses
       - run: flutter build apk --debug
       - run: |
           flutter build ios --no-codesign
