@@ -38,7 +38,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.example.web_view_app"
+        applicationId "com.company.web_view_app"
         minSdkVersion 16
         targetSdkVersion 31
         android.ndkVersion "25.2.9519653"
@@ -47,7 +47,7 @@ android {
         ndk {
             // Tells Gradle to build outputs for the following ABIs and package
             // them into your APK.
-            abiFilters 'x86', 'x86_64', 'armeabi-v7a', 'arm64-v8a'
+            abiFilters 'x86', 'x86_64'
         }
     }
 
