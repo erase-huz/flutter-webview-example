@@ -41,7 +41,7 @@ android {
         applicationId "com.company.web_view_app"
         minSdkVersion 16
         targetSdkVersion 31
-        android.ndkVersion "22.0.7026061"
+        android.ndkVersion "23.2.8568313"
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         ndk {
