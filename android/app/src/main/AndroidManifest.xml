@@ -8,7 +8,7 @@
     <application
         android:usesCleartextTraffic="true"
         android:name="io.flutter.app.FlutterApplication"
-        android:label="web_view_app"
+        android:label="Ak Rubber Industry"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
